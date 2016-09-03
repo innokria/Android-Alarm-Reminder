@@ -3,28 +3,28 @@
 Create Reminder From JSON list or Create your own TODO Reminders , inspired from https://github.com/SheldonNeilson/Android-Alarm-Clock
 
 JSON SAMPLE 
-
+__________________________________________________________
 [
 {
  "Active":"true",
  "Time":"09:42",
  "Days":"MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY",
- "Medication":"benzol",
- "MedId":"123"
+ "Medication":"benzol"
+
 },
 {
  "Active":"true",
  "Time":"09:43",
  "Days":"WEDNESDAY,THURSDAY",
- "Medication":"cough",
- "MedId":"12"
+ "Medication":"cough"
+
 },
 {
  "Active":"true",
  "Time":"09:44",
  "Days":"THURSDAY",
- "Medication":"panadol",
- "MedId":"12"
+ "Medication":"panadol"
+ 
 }
 
 ]
@@ -35,6 +35,9 @@ ___________________________________________________
 AlarmActivity.java 
 
 Loads JSON And Renders predefined Reminders
+
+
+
 
   try {        loadJSONFromAsset();
 			   Database.init(getApplicationContext());
