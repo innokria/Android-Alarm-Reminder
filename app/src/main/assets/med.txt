@@ -1,0 +1,24 @@
+[
+{
+ "Active":"true",
+ "Time":"09:42",
+ "Days":"MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY",
+ "Medication":"benzol",
+ "MedId":"123"
+},
+{
+ "Active":"true",
+ "Time":"09:43",
+ "Days":"WEDNESDAY,THURSDAY",
+ "Medication":"cough",
+ "MedId":"12"
+},
+{
+ "Active":"true",
+ "Time":"09:44",
+ "Days":"THURSDAY",
+ "Medication":"panadol",
+ "MedId":"12"
+}
+
+]
